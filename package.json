@@ -1,12 +1,12 @@
 {
-  "name": "alcuin-viewer",
+  "name": "aelfric-viewer",
   "version": "1.0.0-alpha",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port=4205",
     "build": "ng build",
     "build:release": "sh build-release.sh",
-    "build:gh-pages": "ng build --configuration production --base-href /alcuin-viewer/",
+    "build:gh-pages": "ng build --configuration production --base-href /aelfric-viewer/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

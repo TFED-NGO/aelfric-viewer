@@ -1,4 +1,4 @@
-EVT 3.0 (alcuin-viewer) [![Build Status](https://travis-ci.org/evt-project/alcuin-viewer.svg?branch=master)](https://travis-ci.org/evt-project/alcuin-viewer)
+EVT 3.0 (aelfric-viewer) [![Build Status](https://travis-ci.org/evt-project/aelfric-viewer.svg?branch=master)](https://travis-ci.org/evt-project/aelfric-viewer)
 ===============
 
 1 - Introduction
@@ -28,22 +28,22 @@ If you are interested in **using** EVT to prepare an edition right away, you sho
 If, on the other hand, you are interested in **developing** a specific functionality in EVT, or in modifying an existing one, or preparing your edition with the most recent (yet stable) version of EVT, you should download the [*GitHub Development framework*](https://github.com/evt-project/evt-viewer). See the *Development framework installation and use* section to know how to install and configure the environment needed for this purpose. If you intend to change the source code for personal needs, please **fork** the project. If you want to contribute to the main project (by fixing a bug or adding a feature), please ask for a **pull request** and/or contact us at evt.developers@gmail.com.
 
 ### 2.1 - Installation and use
-EVT 3 can be used to prepare an edition right away, immediately after downloading the release package on your hard drive: see the [​Installation and management of the edition data](https://github.com/evt-project/alcuin-viewer/wiki/Installation-and-use#installation-and-management-of-the-edition-data) section of the Wiki first, then [Configuration​](https://github.com/evt-project/alcuin-viewer/wiki/Configuration), to understand how EVT works and how you can use it to publish your editions.
+EVT 3 can be used to prepare an edition right away, immediately after downloading the release package on your hard drive: see the [​Installation and management of the edition data](https://github.com/evt-project/aelfric-viewer/wiki/Installation-and-use#installation-and-management-of-the-edition-data) section of the Wiki first, then [Configuration​](https://github.com/evt-project/aelfric-viewer/wiki/Configuration), to understand how EVT works and how you can use it to publish your editions.
 
-If, on the other hand, you are interested in ​developing a specific functionality in EVT 3, or in modifying an existing one, we suggest that you clone the project as it is.​ The ​README.md explains how to install and configure the development environment needed for this purpose. This step is only needed if you want to start working with EVT source code, so it is in no way necessary for basic users. See [Development](https://github.com/evt-project/alcuin-viewer/wiki/Development) section and subsections of the Wiki for further information on development guidelines.
+If, on the other hand, you are interested in ​developing a specific functionality in EVT 3, or in modifying an existing one, we suggest that you clone the project as it is.​ The ​README.md explains how to install and configure the development environment needed for this purpose. This step is only needed if you want to start working with EVT source code, so it is in no way necessary for basic users. See [Development](https://github.com/evt-project/aelfric-viewer/wiki/Development) section and subsections of the Wiki for further information on development guidelines.
 
 
 
 ### 2.2 - Configuration
 There are several configuration options, ranging from setting the folders where edition data is stored to choosing the User Interface layout and the tools to be made available for the final user, that can be set by editing the configuration files in the `assets/config` directory. To facilitate the configuration work, configuration options are divided into three macro groups:
 
-* Edition Configuration (`edition_config.json`), where to set the configurations closely related to the digital edition, such as the title, the edition level(s), etc. [See details in the Wiki page](https://github.com/evt-project/alcuin-viewer/wiki/Edition-Configuration).
-* File Configuration (`file_config.json`), where to set the path(s) to the file(s) of the digital edition. [See details in the Wiki page](https://github.com/evt-project/alcuin-viewer/wiki/File-Configuration).
-* UI Configuration (`ui_config.json`), where to set the configuration closely related to the UI, such as the default language, the default/available theme(s), etc. [See details in the Wiki page](https://github.com/evt-project/alcuin-viewer/wiki/Ui-Configuration).
+* Edition Configuration (`edition_config.json`), where to set the configurations closely related to the digital edition, such as the title, the edition level(s), etc. [See details in the Wiki page](https://github.com/evt-project/aelfric-viewer/wiki/Edition-Configuration).
+* File Configuration (`file_config.json`), where to set the path(s) to the file(s) of the digital edition. [See details in the Wiki page](https://github.com/evt-project/aelfric-viewer/wiki/File-Configuration).
+* UI Configuration (`ui_config.json`), where to set the configuration closely related to the UI, such as the default language, the default/available theme(s), etc. [See details in the Wiki page](https://github.com/evt-project/aelfric-viewer/wiki/Ui-Configuration).
 
-It is also possible to configurate the style of editorial phenomena (e.g. addition, deletion, etc), in order to override the EVT default layouts. This particular configuration should be defined in the file `editorial_conventions_config.json`. [See details in the Wiki page](https://github.com/evt-project/alcuin-viewer/wiki/Editorial-Conventions-Configuration)
+It is also possible to configurate the style of editorial phenomena (e.g. addition, deletion, etc), in order to override the EVT default layouts. This particular configuration should be defined in the file `editorial_conventions_config.json`. [See details in the Wiki page](https://github.com/evt-project/aelfric-viewer/wiki/Editorial-Conventions-Configuration)
 
-For more information please refer to the [Configuration section](https://github.com/evt-project/alcuin-viewer/wiki/Configuration) on the Wiki.
+For more information please refer to the [Configuration section](https://github.com/evt-project/aelfric-viewer/wiki/Configuration) on the Wiki.
 
 
 3 - Development framework installation and use
@@ -66,8 +66,8 @@ below. To properly install all the dependency, please use 12.20.x/14.15.x/16.10.
     v6.14.8
 
 ### 3.3 - Install 
-    $ git clone https://github.com/evt-project/alcuin-viewer.git
-    $ cd alcuin-viewer
+    $ git clone https://github.com/evt-project/aelfric-viewer.git
+    $ cd aelfric-viewer
     $ npm install
 
 
@@ -274,7 +274,7 @@ If you want to add a parameter in configuration, you need to add it first to the
 6 - EVT Manual
 ---------------------
 
-As a user manual please refer to the [Wiki](https://github.com/evt-project/alcuin-viewer/wiki). It will always be updated based on the features merged into the `develop` branch. 
+As a user manual please refer to the [Wiki](https://github.com/evt-project/aelfric-viewer/wiki). It will always be updated based on the features merged into the `develop` branch. 
 
 For the functionalities and instructions related to a specific release, it is possible to refer to the `evt-documentation.pdf` file inside the `doc` folder in the release package.
 

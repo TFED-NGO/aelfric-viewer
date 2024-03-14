@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "alcuin-viewer": {
+    "aelfric-viewer": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/alcuin-viewer",
+            "outputPath": "dist/aelfric-viewer",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -131,13 +131,13 @@
           "options": {},
           "configurations": {
             "production": {
-              "browserTarget": "alcuin-viewer:build:production"
+              "browserTarget": "aelfric-viewer:build:production"
             },
             "release": {
-              "browserTarget": "alcuin-viewer:build:release"
+              "browserTarget": "aelfric-viewer:build:release"
             },
             "development": {
-              "browserTarget": "alcuin-viewer:build:development"
+              "browserTarget": "aelfric-viewer:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -145,7 +145,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "alcuin-viewer:build"
+            "browserTarget": "aelfric-viewer:build"
           }
         },
         "test": {
@@ -178,10 +178,10 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "alcuin-viewer:serve:production"
+              "devServerTarget": "aelfric-viewer:serve:production"
             },
             "development": {
-              "devServerTarget": "alcuin-viewer:serve:development"
+              "devServerTarget": "aelfric-viewer:serve:development"
             }
           },
           "defaultConfiguration": "development"
@@ -198,7 +198,7 @@
       }
     }
   },
-  "defaultProject": "alcuin-viewer",
+  "defaultProject": "aelfric-viewer",
   "cli": {
     "analytics": "c373e515-eb44-4b1b-85c7-56dd668954af",
     "defaultCollection": "@angular-eslint/schematics"

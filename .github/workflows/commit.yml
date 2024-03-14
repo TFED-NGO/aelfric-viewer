@@ -45,4 +45,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PAT }}
           BRANCH: gh-pages
-          FOLDER: deploy_dist/alcuin-viewer
+          FOLDER: deploy_dist/aelfric-viewer

@@ -6,7 +6,7 @@
     "start": "ng serve --port=4205",
     "build": "ng build",
     "build:release": "sh build-release.sh",
-    "build:gh-pages": "ng build --configuration production --base-href /aelfric-viewer/",
+    "build:gh-pages": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

@@ -9,7 +9,7 @@
         <div class="bd-highlight item-content " *ngFor="let item of row" (click)="goToThumbPage(item)">
           <img class="evt-img-page" src="{{item.url}}" alt="page"
             [ngClass]="{'clicked-item': (currentItem$ | async) === item }"
-            [placeholder]="'assets/images/empty-image.jpg'" />
+            [placeholder]="'assets/images/empty-image.png'" />
           <p class="item-page-index" [ngClass]="{'clicked-item-par': item.active }">{{item.name}}</p>
         </div>
       </div>

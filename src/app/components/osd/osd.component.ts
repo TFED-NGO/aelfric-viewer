@@ -148,7 +148,7 @@ export class OsdComponent implements AfterViewInit, OnDestroy {
         clickToZoom: false,
         dblClickToZoom: true,
       },
-      placeholderFillStyle: 'assets/images/empty-image.jpg',
+      placeholderFillStyle: 'assets/images/empty-image.png',
     };
 
     this.subscriptions.push(combineLatest([this.optionsChange, this.tileSources])

@@ -31,14 +31,14 @@
     </div>
 
     <div footer>
-        <evt-button
+<!--         <evt-button
             [iconLeft]="{icon: 'search'}"
             label="Search"
             additionalClasses="me-1"
             (btnClick)="toggleSecondaryContent('SEARCH_RESULTS')"
             [active]="secondaryContent === 'SEARCH_RESULTS'">
         </evt-button>
-        <evt-entities-select (selectionChange)="itemsToHighlight$.next($event)"></evt-entities-select>
+        <evt-entities-select (selectionChange)="itemsToHighlight$.next($event)"></evt-entities-select> -->
         <evt-button *ngIf="enableProseVersesToggler"
             [iconLeft]="proseVersesTogglerIcon"
             [label]="textFlow | translate"

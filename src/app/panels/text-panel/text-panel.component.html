@@ -1,11 +1,11 @@
 <evt-panel [showSecondaryContent]="isSecondaryContentOpened()" (scrollContent)="updatePageFromScroll$.next()">
     <div header-left>
-        <evt-button
+<!--         <evt-button
             label="Info"
             [iconLeft]="{icon: 'info-circle'}"
             additionalClasses="btn-primary me-1"
             (btnClick)="toggleSecondaryContent('INFO')"
-            [active]="secondaryContent === 'INFO'"></evt-button>
+            [active]="secondaryContent === 'INFO'"></evt-button> -->
         <evt-page-selector [pageID]="pageID" (selectionChange)="updatePage$.next($event)"></evt-page-selector>
         <evt-edition-level-selector [class.hidden]="hideEditionLevelSelector" [editionLevelID]="editionLevelID" (selectionChange)="currentEdLevel$.next($event)"></evt-edition-level-selector>
     </div>
